@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cajor\\OneDrive\\Documentos\\GitHub\\Churn-app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D4A425-1920-7A1F-5BA5-6100DFDA78AB}|Churn-app\\Churn-app.csproj|c:\\users\\cajor\\onedrive\\documentos\\github\\churn-app\\churn-app\\frontend\\js\\prediccion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A6D4A425-1920-7A1F-5BA5-6100DFDA78AB}|Churn-app\\Churn-app.csproj|solutionrelative:churn-app\\frontend\\js\\prediccion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D4A425-1920-7A1F-5BA5-6100DFDA78AB}|Churn-app\\Churn-app.csproj|c:\\users\\cajor\\onedrive\\documentos\\github\\churn-app\\churn-app\\frontend\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6D4A425-1920-7A1F-5BA5-6100DFDA78AB}|Churn-app\\Churn-app.csproj|solutionrelative:churn-app\\frontend\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "prediccion.js",
+              "DocumentMoniker": "C:\\Users\\cajor\\OneDrive\\Documentos\\GitHub\\Churn-app\\Churn-app\\frontend\\js\\prediccion.js",
+              "RelativeDocumentMoniker": "Churn-app\\frontend\\js\\prediccion.js",
+              "ToolTip": "C:\\Users\\cajor\\OneDrive\\Documentos\\GitHub\\Churn-app\\Churn-app\\frontend\\js\\prediccion.js",
+              "RelativeToolTip": "Churn-app\\frontend\\js\\prediccion.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-14T02:59:13.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dashboard.html",
+              "DocumentMoniker": "C:\\Users\\cajor\\OneDrive\\Documentos\\GitHub\\Churn-app\\Churn-app\\frontend\\dashboard.html",
+              "RelativeDocumentMoniker": "Churn-app\\frontend\\dashboard.html",
+              "ToolTip": "C:\\Users\\cajor\\OneDrive\\Documentos\\GitHub\\Churn-app\\Churn-app\\frontend\\dashboard.html",
+              "RelativeToolTip": "Churn-app\\frontend\\dashboard.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-03-14T02:59:11.262Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

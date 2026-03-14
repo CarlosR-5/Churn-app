@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Sistema Predictivo de Clientes</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/flatly/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+<div class="container vh-100 d-flex align-items-center">
+
+<div class="row w-100">
+
+<div class="col-md-6 mx-auto">
+
+<div class="text-center mb-4">
+<h2>Sistema Predictivo</h2>
+<p class="text-muted">Gestión y predicción de abandono de clientes</p>
+</div>
+
+<ul class="nav nav-tabs mb-3" id="tabs">
+
+<li class="nav-item">
+<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#loginTab">
+Login
+</button>
+</li>
+
+<li class="nav-item">
+<button class="nav-link" data-bs-toggle="tab" data-bs-target="#registerTab">
+Registro
+</button>
+</li>
+
+</ul>
+
+<div class="tab-content">
+
+<!-- LOGIN -->
+
+<div class="tab-pane fade show active" id="loginTab">
+
+<div class="card">
+
+<div class="card-body">
+
+<div id="loginError" class="alert alert-danger d-none"></div>
+
+<input id="loginUser" class="form-control mb-3" placeholder="Usuario">
+
+<input id="loginPass" type="password" class="form-control mb-3" placeholder="Contraseña">
+
+<button onclick="login()" class="btn btn-primary w-100">
+Iniciar sesión
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- REGISTRO -->
+
+<div class="tab-pane fade" id="registerTab">
+
+<div class="card">
+
+<div class="card-body">
+
+<div id="registerMsg" class="alert d-none"></div>
+
+<input id="regUser" class="form-control mb-3" placeholder="Usuario">
+
+<input id="regPass" type="password" class="form-control mb-3" placeholder="Contraseña">
+
+<button onclick="registro()" class="btn btn-success w-100">
+Crear cuenta
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="js/auth.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

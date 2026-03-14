@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Dashboard Predictivo</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/flatly/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-primary">
+
+<div class="container-fluid">
+
+<a class="navbar-brand">Dashboard Predictivo</a>
+
+<div>
+
+<a href="clientes.html" class="btn btn-light me-2">
+Gestión de Clientes
+</a>
+
+<button onclick="logout()" class="btn btn-danger">
+Cerrar sesión
+</button>
+
+</div>
+
+</div>
+
+</nav>
+
+<div class="container mt-4">
+
+<div class="row g-3">
+
+<!-- TOTAL CLIENTES -->
+
+<div class="col-md-3">
+
+<div class="card text-center border-primary">
+
+<div class="card-body">
+
+<h6 class="text-muted">Total Clientes</h6>
+
+<h2 id="totalClientes">0</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CLIENTES EN RIESGO -->
+
+<div class="col-md-3">
+
+<div class="card text-center border-danger">
+
+<div class="card-body">
+
+<h6 class="text-muted">Clientes en Riesgo</h6>
+
+<h2 id="riesgoClientes">0</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CLIENTES ESTABLES -->
+
+<div class="col-md-3">
+
+<div class="card text-center border-success">
+
+<div class="card-body">
+
+<h6 class="text-muted">Clientes Estables</h6>
+
+<h2 id="establesClientes">0</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PORCENTAJE DE RIESGO -->
+
+<div class="col-md-3">
+
+<div class="card text-center border-warning">
+
+<div class="card-body">
+
+<h6 class="text-muted">Porcentaje de Riesgo</h6>
+
+<h2 id="porcentajeRiesgo">0%</h2>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- GRAFICA -->
+
+<div class="card mt-4">
+
+<div class="card-header">
+Análisis de clientes
+</div>
+
+<div class="card-body">
+
+<canvas id="grafica"></canvas>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="js/auth.js"></script>
+<script src="js/prediccion.js"></script>
+
+</body>
+
+</html>
