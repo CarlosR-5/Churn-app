@@ -18,4 +18,4 @@
 |---|---|
 | Backend C# | 5000 |
 | ML Service Python | 8000 |
-| Frontend | abrir en navegador |
+| Frontend | 7139 |
