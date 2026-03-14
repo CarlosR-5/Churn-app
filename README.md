@@ -18,4 +18,4 @@
 |---|---|
 | Backend C# | 5000 |
 | ML Service Python | 8000 |
-| Frontend | 7139 |
+| Frontend | [7139 ](https://localhost:7139/index.html)|
